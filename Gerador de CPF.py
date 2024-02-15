@@ -4,7 +4,7 @@ cpf_escolhido = ''
 
 #Escolher 9 números aleatórios para a base do CPF
 for i in range(0,9):
-    cpf_escolhido = cpf_escolhido + str(randint(0,9))
+    cpf_escolhido += str(randint(0,9))
 
 #Aplicar a fórmula para o 1° e 2° dígito validador
 while True:
